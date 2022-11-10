@@ -4,9 +4,8 @@
  * @author Fred George  fredgeorge@acm.org
  */
 
-package com.nrkei.training.oo.unit
+package com.nrkei.project.template
 
-import com.nrkei.training.oo.rectangle.Rectangle
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
@@ -17,4 +16,4 @@ internal class RectangleTest {
     fun area() {
         assertEquals(24.0, Rectangle(4.0, 6.0).area())
     }
-}˚
+}

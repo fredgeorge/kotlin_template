@@ -1,9 +1,10 @@
-### oo_boot_camp_template_kotlin
+### kotlin_template
 
 Copyright (c) 2022 by Fred George  
-May be used freely except for training; license required for training.
+May be used freely except for training; license required for training.  
+author: fredgeorge@acm.org
 
-## OO Boot Camp starting template for Kotlin class
+## Starting template for Kotlin project using Gradle
 
 Kotlin is relatively easy to setup with IntelliJ IDEA. 
 Gradle is used for building and testing the project, and is a 
@@ -32,5 +33,6 @@ Source and test directories should already be tagged as such,
 with test directories in green.
 
 Confirm that everything builds correctly (and necessary libraries exist).
-There should be errors in RectangleTest. 
-Fixing them is the first exercise!
+There is a sample class, Rectangle, with a corresponding
+test, RectangleTest. The test should run successfully
+from the Gradle __test__ task.
