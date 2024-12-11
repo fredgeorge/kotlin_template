@@ -14,7 +14,7 @@ The following instructions are for installing the code
 in IntelliJ IDEA by JetBrains. 
 Adapt as necessary for your environment.
 
-Note: This implementation was setup to use:
+Note: This implementation was set up to use:
 
 - IntelliJ 2024.3.1 (Ultimate Edition)
 - Kotlin 2.1.0
@@ -42,3 +42,4 @@ Update the following:
 
 - In settings.gradle.kts, change the rootProject.name
 - In both engine and tests, choose your domain name for your code under kotlin directory
+- Consider renaming the <engine> project to your domain specific label
