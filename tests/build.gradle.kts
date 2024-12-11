@@ -28,8 +28,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0")
 
     // Jupiter using JUnit 5
-    testImplementation(platform("org.junit:junit-bom:5.9.2"))
-	testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
+    testImplementation(platform("org.junit:junit-bom:5.11.3"))
+	testImplementation("org.junit.jupiter:junit-jupiter:5.11.3")
 }
 
 tasks.test {

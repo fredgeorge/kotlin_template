@@ -7,20 +7,20 @@ Licensed under the MIT License; see LICENSE file in root.
 
 ## Starting template for Kotlin project using Gradle
 
-Kotlin is relatively easy to setup with IntelliJ IDEA. 
+Kotlin is relatively easy to set up with IntelliJ IDEA. 
 Gradle is used for building and testing the project, and is a 
 prerequisite. Install if necessary.
 The following instructions are for installing the code 
-in IntelliJ 2022 by JetBrains. 
+in IntelliJ IDEA by JetBrains. 
 Adapt as necessary for your environment.
 
 Note: This implementation was setup to use:
 
-- IntelliJ 2022.3.1 (Ultimate Edition)
-- Kotlin 1.8.0
-- Java SDK 19 (Oracle)
-- Gradle 7.6
-- JUnit 5.9.2 for testing
+- IntelliJ 2024.3.1 (Ultimate Edition)
+- Kotlin 2.1.0
+- Java SDK 23 (Oracle)
+- Gradle 8.11.1
+- JUnit 5.11.3 for testing
 
 Open the reference code:
 
@@ -37,3 +37,8 @@ Confirm that everything builds correctly (and necessary libraries exist).
 There is a sample class, Rectangle, with a corresponding
 test, RectangleTest. The test should run successfully
 from the Gradle __test__ task.
+
+Update the following:
+
+- In settings.gradle.kts, change the rootProject.name
+- In both engine and tests, choose your domain name for your code under kotlin directory
