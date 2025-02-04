@@ -22,14 +22,14 @@ dependencies {
     implementation(project(":engine"))
 
     // Align versions of all Kotlin components
-    implementation(platform("org.jetbrains.kotlin:kotlin-bom:2.1.0"))
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:2.1.10"))
 
     // Use the Kotlin JDK 8 standard library.
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.10")
 
     // Jupiter using JUnit 5
-    testImplementation(platform("org.junit:junit-bom:5.11.3"))
-	testImplementation("org.junit.jupiter:junit-jupiter:5.11.3")
+    testImplementation(platform("org.junit:junit-bom:5.11.4"))
+	testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
 }
 
 tasks.test {

@@ -20,8 +20,8 @@ repositories {
 
 dependencies {
     // Align versions of all Kotlin components
-    implementation(platform("org.jetbrains.kotlin:kotlin-bom:2.1.0"))
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:2.1.10"))
 
     // Use the Kotlin JDK 8 standard library.
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.10")
 }

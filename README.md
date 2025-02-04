@@ -16,11 +16,11 @@ Adapt as necessary for your environment.
 
 Note: This implementation was set up to use:
 
-- IntelliJ 2024.3.1 (Ultimate Edition)
-- Kotlin 2.1.0
+- IntelliJ 2024.3.2.2 (Ultimate Edition)
+- Kotlin 2.1.10
 - Java SDK 23 (Oracle)
-- Gradle 8.11.1
-- JUnit 5.11.3 for testing
+- Gradle 8.12.1
+- JUnit 5.11.4 for testing
 
 Open the reference code:
 
